@@ -2,21 +2,47 @@ body, body *{
     margin: 0;
     padding: 0;
     border: 0;
-    
+    font-family: "Open Sans", sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
+
 .container-fluid{
-background-color: cadetblue;
+background-color:  #31a6b1;
 
 }
 
 .container-fluid img {
     width: 3rem;
-    height: auto;
+    height: auto; 
+
 }
 
+#navbarNav .nav-link{
+    color: #FFFFFF;
+}
+
+#navbarNav .collapse {
+    padding-right: 100px;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 10px; 
+}
 .d-block {
     height: 800px;
+}
+
+#carrusel .d-md-block{
+    padding-bottom: 50px;
+}
+
+.row {
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .text-center{
@@ -37,10 +63,66 @@ background-color: cadetblue;
 }
 
 .col-12 .container{
-    background-color: cyan;
+    background-color:#00B0B9;
     
 }
  .fa-solid {
     font-size: 2rem;
  }
+
+#destacados .container-fluid{
+    background-color: #000000;
+}
+
+.card-body{
+    background-color:#00B0B9;
+
+}
+
+.card-body h6{
+    color: #FFFFFF;
+    font-weight:lighter;
+    font-size: 20px;
+}
+
+.card-body p{
+    color: #FFFFFF;
+    font-weight: lighter;
+    font-size: 16;
+}
+
+ .card img {
+    height: 150px;
+    width: auto;
+
+ }
+
+ #contacto .container-fluid{
+    background-color: #000000;
+    color: #FFFFFF;
+ }
+
+.mb-3 button{
+    background-color:#00B0B9;
+    border: #00B0B9;
+    
+}
+
+.footer {
+    background-color:#00B0B9;
+    color: #FFFFFF;
+    
+}
+
+.footer h3{
+    margin-left: 200px;
+}
+
+
+#favicon i{
+ font-size: 25px;
+ margin-left: 10px;
+
+     
+}
 
