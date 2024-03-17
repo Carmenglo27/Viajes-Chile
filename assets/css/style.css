@@ -19,12 +19,28 @@ background-color: cadetblue;
     height: 800px;
 }
 
-#tarjetas .container-fluid {
-    background-color: black;
+.text-center{
+    
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Open Sans", sans-serif;
+    font-weight: lighter;
 }
 
-.container-fluid h5{
-    color: white;
-    font-weight: 300;
-    font-family: "Raleway", sans-serif;
+.text{
+
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    
+    
 }
+
+.col-12 .container{
+    background-color: cyan;
+    
+}
+ .fa-solid {
+    font-size: 2rem;
+ }
+
