@@ -1,10 +1,12 @@
-// Smooth-scroll
-$('.smooth-scroll').on('click', function (event) {
-    event.preventDefault();
+$("h5").click(function(){
+    $(this).css({
+    "color": "skyblue",
+    "font-size": "2em"
+    });
+    });
 
-    const target = $(this).attr('href');
-
-    $('html, body').animate({
-      scrollTop: $(target).offset().top
-    }, 300);
-  });
+ $(document).ready(function () {
+    $("#boton").click(function () {
+    alert("El correo fue enviado correctamente");
+     });
+    });
